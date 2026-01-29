@@ -1,5 +1,5 @@
 # Bypass private memory scans
-A demonstration project showcasing three different methods to hook Windows `VirtualQuery` API for hiding private executable memory regions.
+A demonstration project showcasing three different methods to hook Windows `VirtualQuery` API for hiding private executable memory regions. Also this project only covers `VirtualQuery` for simplicity but if you want to be complete you should cover `NtQueryVirtualMemory` and spoof `MEMORY_INFORMATION_CLASS->MemoryBasicInformation`.
 
 ## Overview
 This project demonstrates how easy it is to hide private memory by simply hooking hooking `VirtualQuery`.
