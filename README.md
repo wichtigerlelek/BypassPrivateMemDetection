@@ -6,12 +6,18 @@ The hook function simply checks if the queried memory region is `MEM_COMMIT` && 
 
 ## Usage
 In the dllmain.cpp include one of the following 3 headers and build. You can use the TestDll project to test the dll.
+
+- **This will build a dll that uses Microsoft Detours to hook `VirtualQuery`.**
 ```cpp
 #include "variants/detourVariant.hpp"
 ```
+
+- **This will build a dll that hooks `VirtualQuery` via IAT hooking.**
 ```cpp
 #include "variants/iatVariant.hpp"
 ```
+
+- **This will build a dll that hooks  `VirtualQuery` via a Page Guard Hook.**
 ```cpp
 #include "variants/pageGuardVariant.hpp"
 ```
