@@ -24,7 +24,7 @@ int main()
 	std::println("allocMem: {:P}", allocMem);
 
 	HMODULE hDll = LoadLibraryA("./BypassPrivateMem.dll");
-	if (hDll == INVALID_HANDLE_VALUE)
+	if (hDll == nullptr)
 	{
 		return 1;
 	}
@@ -32,6 +32,5 @@ int main()
 	FindPrivateMem();
 
 	FreeLibrary(hDll);
-
 	return 0;
 }

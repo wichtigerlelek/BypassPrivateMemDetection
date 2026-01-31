@@ -155,6 +155,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="variants\hwBpVariant.hpp" />
     <ClCompile Include="variants\pageGuardVariant.hpp" />
   </ItemGroup>
   <ItemGroup>

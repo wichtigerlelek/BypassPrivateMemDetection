@@ -21,6 +21,9 @@
     <ClCompile Include="variants\pageGuardVariant.hpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="variants\hwBpVariant.hpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="variants\detourVariant.hpp">

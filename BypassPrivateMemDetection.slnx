@@ -3,6 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="BypassPrivateMem/BypassPrivateMem.vcxproj" />
-  <Project Path="TestDll/TestDll.vcxproj" />
+  <Project Path="BypassPrivateMem/BypassPrivateMem.vcxproj" Id="f6939948-1e7b-49a0-b2bd-7865ca241a89" />
+  <Project Path="TestDll/TestDll.vcxproj" Id="b63f5852-dc0a-46e6-ad75-02b3e461c3ee" />
 </Solution>
